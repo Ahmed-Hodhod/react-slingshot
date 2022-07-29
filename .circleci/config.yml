@@ -35,7 +35,7 @@ workflows:
   my_workflow:
     jobs:
       - build
-      - anayze:
+      - analyze:
           requires:
             - build
 
